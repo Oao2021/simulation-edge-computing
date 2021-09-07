@@ -1,5 +1,7 @@
 # simulation-edge-computing
 A python-based simulation model for testing task placement policies in edge servers.
-The model is built upon the simpy framework (https://simpy.readthedocs.io/en/latest/). Matplotlib is used in graphing.
+The model (main.py) is built upon the simpy framework (https://simpy.readthedocs.io/en/latest/). Matplotlib is used in graphing.
 For now, only three edge computing servers are modelled, but the script allows for scaling up the number of servers.
 Currently, simple scheduling rules can be tested.
+To add animation and GUI features to the simpy model, jupyter notebook is used. Ipyleaflet and ipywidgets are the frameworks used for enabling animation and GUI enhancements.
+In the accompanying notebook (build-an-animated-and-GUI-simumalation-model.ipynb), only 1 edge computing server is modelled. Other animation objects are added to enhance the animation.
