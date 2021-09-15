@@ -1,5 +1,5 @@
 # simulation-edge-computing
-This repository is intended to aggregate a set of reproducible and reconfigurable notebooks for testing various task placement policies for edge and fog server networks.
+This repository is intended to aggregate a set of reproducible and reconfigurable notebooks for testing various task placement policies for edge and fog server networks. Contributors are welcome to populate this repository with models to cover all manner of scenarios.
 
 The simulation model (main.py) is built upon the simpy framework (https://simpy.readthedocs.io/en/latest/). Matplotlib is used in graphing purposes
 
