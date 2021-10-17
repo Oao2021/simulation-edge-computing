@@ -169,7 +169,7 @@ class Task(sim.Component):
         while process_time_remain > 0:
             yield self.request((self.server, self.cpu))
             if self.isclaiming():  # if the task is claiming a server, then continue with processing
-                yield self.hold(process_time_remain)
+                yield self.hold(process_time_remain, mode='hold')
                 # if the hold was not cancelled, process_time_remain will be set to zero here!
                 process_time_remain -= env.now() - self.mode_time()
         self.release()
